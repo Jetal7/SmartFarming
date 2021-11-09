@@ -2,3 +2,23 @@ Smart Farming represents the application of modern Information and Communication
 Smart Farming has a real potential to deliver a more productive and sustainable agricultural production, based on a more precise and resource-efficient approach.
 From the farmer’s point of view, Smart Farming should provide the farmer with added value in the form of better decision making or more efficient exploitation operations and management.
 Smart Farming applications do not target only large, conventional farming exploitations, but could also be new levers to boost other common or growing trends in agricultural exploitations, such as family farming (small or complex spaces, specific cultures and/or cattle, preservation of high quality or particular varieties,…), organic farming, and enhance a very respected and transparent farming according to European consumer, society and market consciousness. Smart Farming can also provide great benefits in terms of environmental issues.
+
+
+Components:
+1) Soil moisture sensor:
+This sensor is interfaced with microcontroller and programmed. Once it is programmed it is placed inside a box. The soil moisture sensor has two probes which is inserted into
+the soil. The probes are used to pass current through the soil. The moisture soil has less resistance and hence passes more current through the soil whereas the dry soil has high resistance and pass less current through the soil. For our project we are going to use sensor with operating voltage 3.3V~5V with dimensions 60mm × 30mm.
+2)Humidity sensor: Humidity sensors work by detecting changes that alter electrical currents or temperature in the air. There are three basic types of humidity sensors: capacitive, resistive and thermal. All three types of sensors monitor minute changes in the atmosphere in order to calculate the humidity in the air.
+3) Water level indicator:
+The pumps used in the water level indicator are single phase motor, submersible motor, and in three phase motor. By using the two motors, two sumps, two overhead tanks we cannot control by a single circuit. Automatically the pump will switch ON/OFF when level in the tank is empty and full.
+4)Temperature sensor:
+Agricultural Sensors are built to measure the temperature of plants, soil or water. This multi-thermistor sensor is mounted on a stainless-steel plate to provide mechanical support and the mounting holes make it ideal for agricultural applications Our specialized machine shop can manufacture a surface mount housing to meet your dimensional requirements or you may use this sensor at approximately 2" long and 1" wide.
+5)Microcontroller: Arduino UNO:
+A microcontroller can be considered a self-contained system with a processor, memory and peripherals and can be used as an embedded system. The majority of microcontrollers in use today are embedded in other machinery, such as automobiles, telephones, appliances, and peripherals for computer system.
+6) Relay:
+One of the most useful things you can do with an Arduino is control higher voltage (120-
+240V) devices like pump. Since the Arduino operates at 5V it can’t control these higher voltage devices directly, but you can use a 5V relay to switch the 120-240V current and use the Arduino to control the relay.
+7) Water pump:
+It requires power supply of 220-240V with power rating of 0.018kW and motor power 0.025 hp. Water flow rate is 18.3 Lpm and total water head will be 1.6 m.
+8) Power supply: Either solar panel or DC power supply.
+9) Display: Web page and android app
